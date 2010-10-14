@@ -1,0 +1,37 @@
+.numberedwrap {
+	border: 0;
+	padding: 3px;
+/*	max-width: 400px;*/
+}
+
+.numberedelement {
+	padding: 0px;
+	margin: 0px;
+}
+.numberedwrap, .codelines .lineno {
+/*    white-space: nowrap;*/
+/*	font-size: 10pt;*/
+/*	font-family: monospace;*/
+/*	line-height: normal !important;*/
+}
+
+.numberedwrap .lines {
+	margin-top: 0px;
+	width: 14px;
+	float: left;
+	overflow: visible;
+	border-right: 1px solid #c0c0c0;
+	margin-right: 10px;
+}
+
+.numberedwrap .codelines {
+/*	padding-top: 5px;*/
+}
+
+.numberedwrap .codelines .lineno {
+	color:#AAAAAA;
+	padding-right: 0.5em;
+	padding-top: 0.0em;
+	text-align: right;
+	white-space: nowrap;
+}
